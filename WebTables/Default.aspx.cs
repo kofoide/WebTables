@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
 
 	protected void Button1_Click(object sender, EventArgs e)
 	{
-		string url = "Table.aspx?Schema=" + Schema.Text + "&Table=" + Table.Text;
+		string url = "AnyTable.aspx?Schema=" + Schema.Text + "&Table=" + Table.Text;
 		Response.Redirect(url);
 	}
 }

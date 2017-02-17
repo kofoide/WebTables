@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Proc.aspx.cs" Inherits="Proc" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ProcTable.aspx.cs" Inherits="ProcTable" %>
 
 <!DOCTYPE html>
 

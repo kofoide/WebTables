@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Table.aspx.cs" Inherits="Table" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AnyTable.aspx.cs" Inherits="AnyTable" %>
 
 <!DOCTYPE html>
 

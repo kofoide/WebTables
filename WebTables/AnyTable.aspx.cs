@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Table : System.Web.UI.Page
+public partial class AnyTable : System.Web.UI.Page
 {
 	// List of the textboxes created for inserts
 	//	this is needed to clear the boxes out after the insert is done

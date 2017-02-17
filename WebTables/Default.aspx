@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Proc.aspx">Proc</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ProcTable.aspx">ProcTable</asp:HyperLink>
     <table>
         <tr>
             <td>Schema</td>
