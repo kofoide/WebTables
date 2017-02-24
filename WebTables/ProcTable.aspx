@@ -4,8 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/styleCopy.css" rel="stylesheet" type="text/css" />
     <title></title>
 </head>
 <body>
@@ -13,7 +12,7 @@
     <div>
     <asp:GridView ID="GridView1" runat="server"
         AutoGenerateColumns="False" DataSourceID="SqlDataSource1"
-        DataKeyNames="UserId" EmptyDataText="No records has been added.">
+        DataKeyNames="UserId" EmptyDataText="No records has been added." GridLines="Both" BorderWidth="2px" BorderColor="White">
         <Columns>
             <asp:BoundField DataField="UserId" HeaderText="UserId" ReadOnly="True" >
             </asp:BoundField>
@@ -37,7 +36,6 @@
                 <ItemTemplate>
                     <asp:Label ID="Label1" runat="server" Text='<%# Bind("Department") %>'></asp:Label>
                 </ItemTemplate>
-                <ItemStyle Width="150px" />
             </asp:TemplateField>
             <asp:CommandField ButtonType="Link" ShowEditButton="true" ShowDeleteButton="false" >
             </asp:CommandField>

@@ -14,7 +14,7 @@ public partial class NestedTable : System.Web.UI.Page
 	{
 		if (!IsPostBack)
 		{
-			gvCustomers.DataSource = GetData("SELECT CustomerID, ContactName, Location FROM dbo.Customers");
+			gvCustomers.DataSource = GetData("SELECT CustomerID, ContactName, City FROM dbo.Customers");
 			gvCustomers.DataBind();
 		}
 	}

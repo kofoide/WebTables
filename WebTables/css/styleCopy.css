@@ -42,8 +42,8 @@ thead th {
   background-image: -webkit-linear-gradient(#646f7f, #4a5564);
   background-image: linear-gradient(#646f7f, #4a5564);
   border-top: 1px solid #858d99;
-
 }
+
 thead th:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
